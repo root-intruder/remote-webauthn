@@ -1,0 +1,19 @@
+{
+  "name": "remote-webauthn-client",
+  "version": "1.0.0",
+  "main": "build/ra_client.js",
+  "author": "P. K. Wagner",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "webpack --mode=development",
+    "lint": "tslint --config tslint.json --project . 'src/**/*.{ts,tsx}'"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.2.1",
+    "tslint": "^6.0.0",
+    "typescript": "^3.7.5",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
